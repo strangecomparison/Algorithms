@@ -41,8 +41,6 @@ public class QuickSort {
                     .toArray();
 
 
-
-
             return gather(quicksort(less), pivot, quicksort(greater));     // итог сортировки - объединяем части массива и
                                                                         // опорный элемент
         }
